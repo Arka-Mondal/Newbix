@@ -1,0 +1,4 @@
+isodir
+newbix.iso
+src/*.o
+src/newbix.bin
