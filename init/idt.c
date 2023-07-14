@@ -4,7 +4,7 @@
  * Copyright (C) 2023  Arka Mondal
 */
 
-#include "idt.h"
+#include "../include/idt.h"
 
 idtentry_t kidt[256];
 idtdesc_t kidtdesc = {.limit = sizeof(kidt) - 1, .address = kidt};

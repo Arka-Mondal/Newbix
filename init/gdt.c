@@ -4,7 +4,7 @@
  * Copyright (C) 2023  Arka Mondal
 */
 
-#include "gdt.h"
+#include "../include/gdt.h"
 
 gdtentry_t kgdt[3] = {
   [0] = GDT_MAKE_ENTRY(0, 0, 0, 0),
