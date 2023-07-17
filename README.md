@@ -1,24 +1,31 @@
 # Newbix -- A newbie's Operating System
 
 ## How to build and run
-**Prerequisite**: grub2-mkrescue and xorriso
+
 ```Bash
-## If you are in Ubuntu 20.04 ##
+$ make
+```
+### Installing some development tools might be required
+#### Fedora
+```Bash
+$ sudo dnf install gcc make xorriso
+```
+For fedora users, `grub2` is probably already installed, so you are good to go.
+
+#### Ubuntu 20.04 and later
+```Bash
 $ sudo apt update
+$ sudo apt install build-essential
 $ sudo apt install grub-common
 $ sudo apt install xorriso
 ```
 
+##### If you encounter -lgcc related issue
 ```Bash
-## If you encounter -lgcc related issue ##
 $ sudo apt install gcc-multilib
 ```
 
+##### If you encounter grub2-mkrescue related issue
 ```Bash
-## If you encounter grub2-mkrescue related issue ##
 $ sudo ln -sT /usr/bin/grub-mkrescue /usr/bin/grub2-mkrescue
-```
-
-```Bash
-$ make
 ```
