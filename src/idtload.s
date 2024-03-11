@@ -2,7 +2,7 @@
 # Licensed under GPLv3
 # Author    : Arka Mondal
 # Date      : 25th May, 2023
-# Copyright (C) 2023  Arka Mondal
+# Copyright (C) 2024  Arka Mondal
 
 .text
 .global idt_load

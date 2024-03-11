@@ -2,7 +2,7 @@
 # Licensed under GPLv3
 # Author    : Arka Mondal
 # Date      : 18th May, 2023
-# Copyright (C) 2023  Arka Mondal
+# Copyright (C) 2024  Arka Mondal
 
 .text
 .global load_gdt

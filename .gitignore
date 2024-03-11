@@ -1,4 +1,4 @@
 newbix.iso
 isodir/boot/newbix.bin
-builddir/*.o
-builddir/*.bin
+src/*.o
+src/*.bin

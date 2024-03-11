@@ -1,15 +1,15 @@
 /*
  * Licensed under GPLv3
  * Author    : Arka Mondal
- * Copyright (C) 2023  Arka Mondal
+ * Copyright (C) 2024  Arka Mondal
 */
 
-#include "../include/acpi.h"
-#include "../include/apic.h"
-#include "../include/gdt.h"
-#include "../include/idt.h"
-#include "../include/stdio.h"
-#include "../include/tty.h"
+#include "acpi.h"
+#include "apic.h"
+#include "gdt.h"
+#include "idt.h"
+#include "stdio.h"
+#include "tty.h"
 
 void kinit(void)
 {

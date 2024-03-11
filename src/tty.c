@@ -1,11 +1,11 @@
 /*
  * Licensed under GPLv3
  * Author    : Arka Mondal
- * Copyright (C) 2023  Arka Mondal
+ * Copyright (C) 2024  Arka Mondal
 */
 
-#include "../include/string.h"
-#include "../include/tty.h"
+#include "string.h"
+#include "tty.h"
 
 static size_t tty_row;
 static size_t tty_col;

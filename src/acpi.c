@@ -1,12 +1,12 @@
 /*
  * Licensed under GPLv3
  * Author    : Arka Mondal
- * Copyright (C) 2023  Arka Mondal
+ * Copyright (C) 2024  Arka Mondal
 */
 
-#include "../include/acpi.h"
-#include "../include/stdio.h"
-#include "../include/string.h"
+#include "acpi.h"
+#include "stdio.h"
+#include "string.h"
 
 uint32_t get_rsdt_address(uint32_t address)
 {

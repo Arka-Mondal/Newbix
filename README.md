@@ -15,10 +15,10 @@ For fedora users, `grub2` is probably already installed, so you are good to go.
 #### Ubuntu 20.04 and later
 ```Bash
 $ sudo apt update
-$ sudo apt install build-essential
-$ sudo apt install grub-common
-$ sudo apt install xorriso
+$ sudo apt install build-essential grub-common xorriso
 ```
+
+## Troubleshoot
 
 ##### If you encounter -lgcc related issue
 ```Bash

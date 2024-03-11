@@ -1,10 +1,10 @@
 /*
  * Licensed under GPLv3
  * Author    : Arka Mondal
- * Copyright (C) 2023  Arka Mondal
+ * Copyright (C) 2024  Arka Mondal
 */
 
-#include "../include/string.h"
+#include "string.h"
 
 size_t strlen(const char * str)
 {

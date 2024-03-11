@@ -1,10 +1,10 @@
 /*
  * Licensed under GPLv3
  * Author    : Arka Mondal
- * Copyright (C) 2023  Arka Mondal
+ * Copyright (C) 2024  Arka Mondal
 */
 
-#include "../include/idt.h"
+#include "idt.h"
 
 idtentry_t kidt[256];
 idtdesc_t kidtdesc = {.limit = sizeof(kidt) - 1, .address = kidt};

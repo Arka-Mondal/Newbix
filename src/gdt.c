@@ -1,10 +1,10 @@
 /*
  * Licensed under GPLv3
  * Author    : Arka Mondal
- * Copyright (C) 2023  Arka Mondal
+ * Copyright (C) 2024  Arka Mondal
 */
 
-#include "../include/gdt.h"
+#include "gdt.h"
 
 gdtentry_t kgdt[3] = {
   [0] = GDT_MAKE_ENTRY(0, 0, 0, 0),

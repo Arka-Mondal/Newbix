@@ -1,20 +1,23 @@
 /*
  * Licensed under GPLv3
  * Author    : Arka Mondal
- * Copyright (C) 2023  Arka Mondal
+ * Copyright (C) 2024  Arka Mondal
 */
 
+OUTPUT_ARCH(i386)
 ENTRY (_start)
 
 SECTIONS
 {
-  . = 1M;
+  . = 0x80100000;
 
   .text ALIGN(4K) :
   {
     KEEP(*(.multiboot))
     *(.text)
   }
+
+  PROVIDE(etext = .);
 
   .rodata ALIGN(4K) :
   {
@@ -26,9 +29,13 @@ SECTIONS
     *(.data)
   }
 
+  PROVIDE(edata = .);
+
   .bss ALIGN(4K) :
   {
     *(COMMON)
     *(.bss)
   }
+
+  PROVIDE(end = .);
 }

@@ -1,11 +1,11 @@
 /*
  * Licensed under GPLv3
  * Author    : Arka Mondal
- * Copyright (C) 2023  Arka Mondal
+ * Copyright (C) 2024  Arka Mondal
 */
 
-#include "../include/stdio.h"
-#include "../include/tty.h"
+#include "stdio.h"
+#include "tty.h"
 
 static void itoa(char * buf, int base, int d)
 {

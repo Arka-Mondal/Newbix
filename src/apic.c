@@ -1,11 +1,11 @@
 /*
  * Licensed under GPLv3
  * Author    : Arka Mondal
- * Copyright (C) 2023  Arka Mondal
+ * Copyright (C) 2024  Arka Mondal
 */
 
-#include "../include/apic.h"
-#include "../include/stdio.h"
+#include "apic.h"
+#include "stdio.h"
 
 uint8_t lapic_ids[MAX_NCORES];
 uint8_t ncores;
